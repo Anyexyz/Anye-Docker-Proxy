@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as s,a2 as i}from"./chunks/framework.BL4nn8S5.js";const g=JSON.parse('{"title":"使用文档","description":"","frontmatter":{},"headers":[],"relativePath":"docs/use.md","filePath":"docs/use.md"}'),r={name:"docs/use.md"},n=i("",49),t=[n];function o(l,h,c,p,d,k){return s(),e("div",null,t)}const m=a(r,[["render",o]]);export{g as __pageData,m as default};

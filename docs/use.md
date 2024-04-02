@@ -32,8 +32,7 @@ services:
 
 #### 修改 daemon.json ( 推荐 )
 
-如果仅仅是使用 Docker Hub 官方镜像，可以将本站加入到 daemon.json 文件中，那么可以直接使用正常的官方命令来拉取镜像或启动容器，系统会自动使用本站代理服务，而不会有上述镜像名的问题.参考添加以下信息，或者查看 [这篇文章](https://www.ioiox.com/archives/127.html) 。
-
+如果仅仅是使用 Docker Hub 官方镜像，可以将本站加入到 daemon.json 文件中，那么可以直接使用正常的官方命令来拉取镜像或启动容器，系统会自动使用本站代理服务，而不会有上述镜像名的问题，参考添加以下信息。
 ```json
 {
   "registry-mirrors": [
